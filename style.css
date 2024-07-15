@@ -1,0 +1,71 @@
+body {
+  background-color: #c0c0c0;
+  font-family: "Noto Serif JP", serif;
+}
+
+.section1 .fp {
+  height: 100vh;
+  width: 100%;
+}
+
+.section2 {
+  padding: 50px 0;
+}
+
+.section3 {
+  padding: 50px 0;
+}
+
+h1,
+h2 {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center; /* Centering the titles */
+}
+
+.containerG {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  justify-content: space-between; /* Space out sections */
+  gap: 20px; /* Space between items */
+  background-color: white;
+  padding: 20px;
+}
+
+.C1,
+.C2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 45%; /* Allow flex items to grow, shrink, and set a base width */
+  min-width: 300px; /* Minimum width for better responsiveness */
+}
+
+ul {
+  list-style-type: disc;
+  padding: 0;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px; /* Limit width for better readability */
+}
+
+li {
+  margin: 1rem 0;
+}
+
+.flex-containerr {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+  gap: 20px; /* Space between images */
+  flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+}
+
+.section6 {
+  height: 100vh;
+}
+.foot {
+  background-color: teal;
+}
